@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonios | Salons Versatil</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <style>
+    .testimonials {
+      max-width: 800px;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .testimonial {
+      border-left: 4px solid #000;
+      padding-left: 20px;
+      font-style: italic;
+    }
+
+    .testimonial span {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Salons Versatil</div>
+    <nav>
+      <ul>
+        <li><a href="index.html" data-es="Inicio" data-ca="Inici">Inicio</a></li>
+        <li><a href="about.html" data-es="Sobre Nosotros" data-ca="Sobre Nosaltres">Sobre Nosotros</a></li>
+        <li><a href="services.html" data-es="Servicios" data-ca="Serveis">Servicios</a></li>
+        <li><a href="gallery.html" data-es="Galería" data-ca="Galeria">Galería</a></li>
+        <li><a href="testimonials.html" data-es="Testimonios" data-ca="Testimonis">Testimonios</a></li>
+        <li><a href="contact.html" data-es="Contacto" data-ca="Contacte">Contacto</a></li>
+      </ul>
+    </nav>
+    <button id="language-toggle">Català</button>
+  </header>
+
+  <main>
+    <section class="testimonials-section">
+      <h1 data-es="Lo que dicen nuestros clientes" data-ca="El que diuen els nostres clients">Lo que dicen nuestros clientes</h1>
+      <div class="testimonials">
+        <div class="testimonial" data-es="Me encantó el trato y el resultado. ¡Volveré seguro!" data-ca="Em va encantar el tracte i el resultat. Tornaré segur!">
+          Me encantó el trato y el resultado. ¡Volveré seguro!
+          <span>— Laura M.</span>
+        </div>
+        <div class="testimonial" data-es="Un equipo muy profesional. Me hicieron sentir como en casa." data-ca="Un equip molt professional. Em van fer sentir com a casa.">
+          Un equipo muy profesional. Me hicieron sentir como en casa.
+          <span>— Jordi P.</span>
+        </div>
+        <div class="testimonial" data-es="El mejor salón al que he ido en Barcelona." data-ca="El millor saló al qual he anat a Barcelona.">
+          El mejor salón al que he ido en Barcelona.
+          <span>— Andrea G.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>@versatilbarcelona</p>
+  </footer>
+</body>
+</html>
